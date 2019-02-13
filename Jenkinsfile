@@ -6,7 +6,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    DEPLOY_NAMESPACE = "change-me"
+    DEPLOY_NAMESPACE = "test-spring-boot-rest-prometheus"
   }
   stages {
     stage('Validate Environment') {
